@@ -1,21 +1,22 @@
-# NodeJS Blog Application
+<div dir="rtl">
+<h1> مسار أساسيات Node.js </h1>
+<p>الشيفرة المصدرية الخاصة بمسار أساسيات Node.js ضمن دورة "تطوير التطبيقات باستخدام JavaScript" المقدمة من أكاديمية حسوب</p>
 
-Simple blog API built with nodejs.
-
-## Requirements
-
+<div>
+<a href="https://academy.hsoub.com/learn/javascript-application-development/">دورة تطوير التطبيقات باستخدام JavaScript</a>
+</div>
+<h2> المتطلبات </h2>
 * NodeJS
 * MongoDb
 * GIT
 * Nodemon
-
-## How do I get set up
-
-* Start mongodb service by this command `mongod`
-* Clone the project `git clone https://gitlab.com/mabras/simple-blog-nosejs.git`
-* Open the project directory `cd simple-blog-nosejs`
-* copy .env.example file and paste it in same place with new name '.env' and change variables to meet your enviroment.
-* Run `npm install`
-* Run `npm start` for production or `nodemon start` for development.
-* Using another terminal go to client directory and run `npm install`.
-* Run `npm start` inside client directory.
+<h2> طريقة الإعداد </h2>
+* تشغيل خدمة mongodb باستخدام الأمر `mongod`
+* نسخ المستودع `git clone https://github.com/HsoubAcademy/nodejs-basics.git`
+* الانتقال إلى المجلد `cd nodejs-basics`
+* نسخ الملف `.env.example` إلى نفس المجلد لكن باسم `.env` وتعديل المتغيرات حسب الضبط الخاص بك
+* تشغيل `npm install`
+* تشغيل `npm start` للخدمة الإنتاجية، أو `nodemon start` للتطوير
+* استخدام طرفية أخرى للانتقال إلى مجلد العميل وتشغيل `npm install`
+* تشغيل الأمر `npm start` داخل مجلد العميل
+</div>
