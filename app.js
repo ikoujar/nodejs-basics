@@ -21,6 +21,7 @@ var commentsRouter = require('./routes/comments');
 var app = express();
 require('./passport');
 
+app.set('view engine', 'html');
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
